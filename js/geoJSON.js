@@ -518,6 +518,56 @@ var nautavictoriaGiron = {
     }
 };
 
+
+var nautaPadreValencia = {
+    'type': 'Feature',
+    'properties': {
+        'popupContent': 'Padre Valencia',
+        'style': style
+    },
+    'geometry': {
+        'type': 'MultiPolygon',
+        'coordinates': [
+            [
+                [
+                   [-77.91936814785005,21.382640298944253],//san ramon y astillero
+                   [-77.9211062192917,21.38307501089054],//lugareño y astillero
+                   [-77.92108476161958,21.383889274818195],//padre valencia y lugareño
+                   [-77.92112231254579,21.384274016655763],//san particio y lugareño
+                   [-77.92205572128296,21.384238954429723],//padre valencia
+                   [-77.92305350303651,21.38475848178017],//padre valencia y bembeta
+                   [-77.92273700237276,21.385695501392746],//bembeta y santa rita
+                   [-77.91887462139131,21.385467729697645],//santa rita y san ramon
+                ]
+            ]
+        ]
+    }
+};
+
+
+var nautaLasMercedes = {
+    'type': 'Feature',
+    'properties': {
+        'popupContent': 'Las Mercedes',
+        'style': style
+    },
+    'geometry': {
+        'type': 'MultiPolygon',
+        'coordinates': [
+            [
+                [
+                   [-77.90691196918489,21.39129180439492],// 4ta y a
+                   [-77.90885388851167,21.39143669995174],//4 y c
+                   [-77.90889143943788,21.391081955402957],//3 y c
+                   [-77.9096907377243,21.391101973184146],//3 y d
+                   [-77.90985167026521,21.38899890071716],//d y a
+                   [-77.90711581707002,21.388599302773603],
+                ]
+            ]
+        ]
+    }
+};
+
 var nautatotal =[
         nautaAvellaneda,
         nautavigiaGjson,
@@ -531,7 +581,9 @@ var nautatotal =[
         nautaSanFransisco,
         nautaLenin,
         nautaMontejo,
-        nautavictoriaGiron
+        nautavictoriaGiron,
+        nautaPadreValencia,
+        nautaLasMercedes
     ];
 
 
