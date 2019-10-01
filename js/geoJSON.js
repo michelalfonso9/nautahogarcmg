@@ -8,7 +8,7 @@ var style = {
 var nautaAvellaneda = {
     'type': 'Feature',
     'properties': {
-        'popupContent': 'America Latina,Centro y La Norma',
+        'popupContent': 'America Latina, Centro y La Norma',
         'style': style
     },
     'geometry': {
@@ -20,17 +20,27 @@ var nautaAvellaneda = {
                     [-77.918741,21.38547 ],//santa rita y lope recio
                     [-77.918075,21.383482],//lope recio y popular
                     [-77.918617,21.382788],//popular y padre valecia
+                    [-77.91854739189148,21.382236379327512],
+                    [-77.91857957839966,21.382111509295168],
                     [-77.918494,21.382069],//plaza de los trabajadores
                     [-77.91814,21.382034],//independencia e ignacio agramonte
                     [-77.917625,21.382194],
-                    [-77.9164981842041,21.382552697496806],//Ignacio agramonte y Republica
-                    [-77.91753351688386,21.381428549099336],//maceo icicio
-                    [-77.91771590709686,21.38107387367729],
-                    [-77.91764080524446,21.381058984476255],
-                    [-77.91745841503145,21.381388682364747],
-                    [-77.91640698909761,21.382572852707433],//maceo fin
-                    [-77.91584372520448,21.38255772481694],//Avellaneda e ignacio agramonte
-                    [-77.91369795799255,21.382817438121116],//pobre e ignacio agramonte
+                    [-77.91653573513032,21.382556076275133],//ign y republica
+                    [-77.9159724712372,21.382545761281772],//Avellaneda e ignacio agramonte
+                    [-77.91587591171266,21.381808179729447],
+                    [-77.91562378406525,21.38086730149997],//avellaneda y vate morales
+                    [-77.915216088295,21.379628163291738],
+                    [-77.91484594345094,21.37971488858341], //martí y bartolome
+                    [-77.91464209556581,21.37885410136236],
+                    [-77.9144597053528,21.3787941715939],//pobre y r. pinto
+                    [-77.9131668806076,21.378299397536026],// rio y r pintó
+                    [-77.91251242160799,21.379348550488874],//puete
+                    [-77.91185796260835,21.380432587588633], //vate morales
+                    [-77.9117238521576,21.381056790786065],//rio y felipe caballero
+                    [-77.91155219078065,21.381301539494054],
+                    [-77.90970683097841,21.381721210116886],//rio
+                    [-77.90982484817505,21.383334868724475],//ign. agramonte y coronel pichardo
+                    [-77.9136872291565,21.382950225465773],// avellaneda y ign. Agramonte
                     [-77.91414588689805,21.384367166225783],//pobre y oscar primelles
                     [-77.912368,21.384347],
                     [-77.911681,21.384312],
@@ -530,12 +540,24 @@ var nautaPadreValencia = {
         'coordinates': [
             [
                 [
+                   [-77.91875123977663,21.38545323849205],//santa rita y lope recio
+                   [-77.91809141635896,21.38348516056717],//popular y lope recio
+                   [-77.91863322257997,21.382790849250153],//plaza y padre valencia
+                   [-77.91855812072754,21.382231411891727],//plaza trabajadores
+                   [-77.91935205459596,21.382461193256535],//san ramón y vguerrero
                    [-77.91936814785005,21.382640298944253],//san ramon y astillero
                    [-77.9211062192917,21.38307501089054],//lugareño y astillero
-                   [-77.92108476161958,21.383889274818195],//padre valencia y lugareño
-                   [-77.92112231254579,21.384274016655763],//san particio y lugareño
+                   [-77.9211062192917,21.383784878589662],//padre valencia y lugareño
                    [-77.92205572128296,21.384238954429723],//padre valencia
                    [-77.92305350303651,21.38475848178017],//padre valencia y bembeta
+                   [-77.92459845542909,21.385465416727953],
+                   [-77.9253923892975,21.385735165912426],//bembeta y dama
+                   [-77.92656719684602,21.386177512007173],
+                   [-77.92715191841127,21.38645224566656],
+                   [-77.92762398719788,21.386831870009406],//bembeta y simoni
+                   [-77.92606294155121,21.387835847936966],//simoni y san martín
+                   [-77.92432487010956,21.38724645880862],//san martin y accion civica
+                   [-77.92449653148653,21.385812926877573],//accion civica y santa rita
                    [-77.92273700237276,21.385695501392746],//bembeta y santa rita
                    [-77.91887462139131,21.385467729697645],//santa rita y san ramon
                 ]
@@ -543,7 +565,6 @@ var nautaPadreValencia = {
         ]
     }
 };
-
 
 var nautaLasMercedes = {
     'type': 'Feature',
@@ -567,6 +588,186 @@ var nautaLasMercedes = {
         ]
     }
 };
+var nautaSanJuanDeDios = {
+    'type': 'Feature',
+    'properties': {
+        'popupContent': 'Centro 2',
+        'style': style
+    },
+    'geometry': {
+        'type': 'MultiPolygon',
+        'coordinates': [
+            [
+                [
+                  [-77.9185688495636,21.38208652716822],//ing Agramonte y cisnero
+                  [-77.91885316371919,21.381347261457105],//cisnero y general gomez
+                  [-77.91894972324373,21.38103755902346],
+                  [-77.91904091835023,21.380313261333594],//cisnero y h agueros
+                  [-77.9183864593506,21.37760081127554], //cisnero y san clamente
+                  [-77.91822552680969,21.377276112842274],//cisnero y angel
+                  [-77.91726529598238,21.376646704671128],// cisnero y pobre
+                  [-77.91588127613069,21.37601229498142],//cisnero y rosario
+                  [-77.91537702083589,21.37628202485129],//puente caridad
+                  [-77.914314866066,21.377231116692656],//puetnte 
+                  [-77.9137033224106,21.37748089690397],
+                  [-77.9131668806076,21.378285127830264],// r pinto y rio
+                  [-77.91464745998384,21.378849594951923],// bartolome maso
+                  [-77.914856672287,21.37970880125327],//parque marti
+                  [-77.91522681713106,21.37962888306457],//avellaneda y marti
+                  [-77.91589200496675,21.381806779349745],//calletanos
+                  [-77.91598320007326,21.38253107560176],// ign agramonte
+                  [-77.9165303707123,21.382539760920082],//maceo
+                  [-77.91814506053926,21.38201660356544],
+                ]
+            ]
+        ]
+    }
+};
+var nautaPlazaDeLaRevolucionGjson = {
+    'type': 'Feature',
+    'properties': {
+        'popupContent': 'Reparto Plaza de la Revolución',
+        'style': style
+    },
+    'geometry': {
+        'type': 'MultiPolygon',
+        'coordinates': [
+            [
+                [
+                  [-77.90746986865999,21.38284449555447],//ave 26
+                  [-77.9067885875702,21.38277535972801],//montreal
+                  [-77.9068046808243,21.38163126592599],//montreal y ave ign Agr
+                  [-77.90632188320161,21.381291558257786],//ave cmg y ave ing
+                  [-77.90633261203767,21.380992012148177],// ave cmg
+                  [-77.906391620636,21.37993772567454],// ave nuevitas y ave cmg
+                  [-77.90645599365236,21.3799128917732],
+                  [-77.90717482566835,21.380292725373117],
+                  [-77.90748059749605,21.3807124356343],//Montreal y ave nuevitas
+                  [-77.90772199630739,21.38074733947538],
+                  [-77.90833890438081,21.38117202068261],//ave nuev y loma
+                  [-77.90881633758545,21.381531700256442], //ave nuev y ave 26
+                ]
+            ]
+        ]
+    }
+};
+
+var nautaZambranaGjson = {
+    'type': 'Feature',
+    'properties': {
+        'popupContent': 'Reparto La Zambrana',
+        'style': style
+    },
+    'geometry': {
+        'type': 'MultiPolygon',
+        'coordinates': [
+            [
+                [
+                  [-77.90308177471162,21.379852824642303],//5ta y ave van horne
+                  [-77.90304422378541,21.381916301312454],//5ta y jose arango
+                  [-77.90614485740663,21.382026095936318],//jose arango y ave cmg
+                  [-77.90618240833282,21.379977779594373],// ave cmg y ave van horne
+                  [-77.90435314178468,21.379883126912976],//ave van horne y 4ta
+                ]
+            ]
+        ]
+    }
+};
+var nautaBeneficienciaGjson = {
+    'type': 'Feature',
+    'properties': {
+        'popupContent': 'Reparto Beneficiencia',
+        'style': style
+    },
+    'geometry': {
+        'type': 'MultiPolygon',
+        'coordinates': [
+            [
+                [
+                 [-77.92309105396272,21.39247115253923],//liena
+                 [-77.91682004928589,21.3925360889853],//tomas b y ave mart
+                 [-77.91671276092531,21.389534203560544],//ave y repu
+                 [-77.91867077350618,21.389883821137975],
+                 [-77.92062878608705,21.390797886017577],
+                ]
+            ]
+        ]
+    }
+};
+
+var nautaSanJuanDeDiosGjson = {
+    'type': 'Feature',
+    'properties': {
+        'popupContent': 'San Juan de Dios',
+        'style': style
+    },
+    'geometry': {
+        'type': 'MultiPolygon',
+        'coordinates': [
+            [
+                [
+                 [-77.91638016700746,21.376232077859562],//san rafael y cisnero
+                 [-77.91650354862215,21.376147151363693],
+                 [-77.91753351688386,21.37573753475435],//san rafael y rito arencivia
+                 [-77.91788756847383,21.375822446918708],
+                 [-77.91894972324373,21.375522727665516],//san rafael y lugareño
+                 [-77.9190516471863,21.375747509973365],
+                 [-77.91941642761232,21.376431861036814],
+                 [-77.91951835155488,21.376761555948896],//lugareño y san clemente
+                 [-77.92005479335786,21.376561754851917],//san clemente y hospital
+                 [-77.92089164257051,21.376107188515313],
+                 [-77.9220074415207,21.375617647234535],//san clemente y Bembeta
+                 [-77.92429804801942,21.378899563853878],//10 de octubre y bembeta
+                 [-77.92444825172426,21.379389106193422],//bembeta y marti
+                 [-77.92441070079805,21.379738818196294],
+                 [-77.92305886745454,21.384753926218917],//bembeta y padre valencia
+                 [-77.92206645011902,21.38423445599244],
+                 [-77.9211062192917,21.383774913799574],//padre valencia y lugareño
+                 [-77.92112231254579,21.38307558932456],//lugareño y astillero
+                 [-77.91937351226808,21.382631026836606],//astillero y san ramon
+                 [-77.91936278343202,21.382441202307746],// san ramon y v guerrero
+                 [-77.91855812072754,21.382216421158823],//plaza de lo trabajadores
+                 [-77.91896581649782,21.381067537942215],//cisnero
+                 [-77.91906237602235,21.38030327565755],//hermanos agueros y cicnero
+                 [-77.91840255260468,21.3776058140874],//san clemente y cisnero
+                 [-77.9182416200638,21.37728111186462],//cisnero y angel
+                 [-77.91729211807252,21.376641711454734],//cisnero y pobre
+                ]
+            ]
+        ]
+    }
+};
+
+var nautaAlturaJayama = {
+    'type': 'Feature',
+    'properties': {
+        'popupContent': 'Reparto Altura de Jayamá',
+        'style': style
+    },
+    'geometry': {
+        'type': 'MultiPolygon',
+        'coordinates': [
+            [
+                [
+                   [-77.88363039493562,21.36150992800182],//cc y calle a
+                   [-77.88102328777315,21.360116079205476],//cc y callejon
+                   [-77.87865221500398,21.361370042862838],
+                   [-77.87652790546417,21.363163561496123],//linea
+                   [-77.87779927253725,21.365406642717872],
+                   [-77.87973046302797,21.367115178415553],//ave a y linea
+                ],
+                [
+                   [-77.87982165813447,21.367315016729744],//edificios linea sur
+                   [-77.87914574146272,21.368429057210154],
+                   [-77.88047611713411,21.36931326628735],
+                   [-77.88140952587128,21.368259226663533],
+                   [-77.87982165813447,21.367315016729744],
+                ]
+            ]
+        ]
+    }
+};
+
 
 var nautatotal =[
         nautaAvellaneda,
@@ -583,7 +784,13 @@ var nautatotal =[
         nautaMontejo,
         nautavictoriaGiron,
         nautaPadreValencia,
-        nautaLasMercedes
+        nautaLasMercedes,
+        nautaSanJuanDeDios,
+        nautaPlazaDeLaRevolucionGjson,
+        nautaZambranaGjson,
+        nautaBeneficienciaGjson,
+        nautaSanJuanDeDiosGjson,
+       // nautaAlturaJayama
     ];
 
 
